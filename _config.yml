@@ -1,7 +1,8 @@
 lang:                  en
 title:                 Mockingjays Are Just Curious
 tagline:               Question everything. Stay curious.
-description:           Mockingjays Are Just Curious is a personal blog for questions and examinations about religious dogmas and claims. 
+description:           >
+  Mockingjays Are Just Curious is a personal blog for questions and examinations about religious dogmas and claims. 
 keyword:               []
 copyright:             © 2024. All rights reserved.
 url:                   https://dev.mjajc.com
@@ -117,6 +118,57 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+compress_html:
+  comments:            ["<!--", "-->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/common/sidebar.jpg
+    posts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/common/sidebar.jpg
+    projects:
+      layout: project
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/common/sidebar.jpg
+      links:
+        - title: Project Link
+          url: https://example.com
 
 author:
   name:                Julius Cesar
