@@ -1,5 +1,8 @@
 lang:                  en
 title:                 Mockingjays Are Just Curious
+tagline:               Question everything. Stay curious.
+description:           Mockingjays Are Just Curious is a personal blog for questions and examinations about religious dogmas and claims. 
+keyword:               []
 copyright:             © 2024. All rights reserved.
 favicon:               /assets/icons/favicon.ico
 logo:                  /assets/icons/logo.png
@@ -48,7 +51,7 @@ hydejack:
 
   offline:
     enabled:           false
-    cache_version:     1
+    cache_version:     13
     precache_assets:
       - /assets/img/common/swipe.svg
 
@@ -98,6 +101,20 @@ collections:
 
 paginate:              10
 paginate_path:         /site/:num/
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-last-modified-at
 
 author:
   name:                Julius Cesar
