@@ -4,6 +4,8 @@ tagline:               Question everything. Stay curious.
 description:           Mockingjays Are Just Curious is a personal blog for questions and examinations about religious dogmas and claims. 
 keyword:               []
 copyright:             © 2024. All rights reserved.
+url:                   https://dev.mjajc.com
+baseurl:               ''
 favicon:               /assets/icons/favicon.ico
 logo:                  /assets/icons/logo.png
 apple_touch_icon:      /assets/icons/apple-touch-icon.png
